@@ -1,0 +1,19 @@
+python-slugify==8.0.4  # https://github.com/un33k/python-slugify
+Pillow==10.4.0  # https://github.com/python-pillow/Pillow
+argon2-cffi==23.1.0  # https://github.com/hynek/argon2_cffi
+faker==28.0.0  # https://github.com/joke2k/faker
+psycopg2==2.9.9  # https://github.com/psycopg/psycopg2
+requests~=2.32.3
+
+# Django
+# ------------------------------------------------------------------------------
+django==5.1  # pyup: < 5.3  # https://www.djangoproject.com/
+django-environ==0.11.2  # https://github.com/joke2k/django-environ
+drf-exceptions-hog==0.4.0  # https://github.com/PostHog/drf-exceptions-hog
+
+# Django REST Framework
+# ------------------------------------------------------------------------------
+djangorestframework==3.15.2  # https://github.com/encode/django-rest-framework
+django-cors-headers==4.4.0  # https://github.com/adamchainz/django-cors-headers
+djangorestframework-simplejwt==5.3.1  # https://github.com/jazzband/djangorestframework-simplejwt
+drf-yasg==1.21.7  # https://github.com/axnsan12/drf-yasg
